@@ -17,4 +17,8 @@ app.use(bodyParser.json());
 app.use('/esusuUser', userRouter);
 app.use('/esusuGroup', groupRouter);
 
+app.use("/", (req, res) => {
+  res.send("Hello, Welcome to the Esusu Contribution API");
+});
+
 module.exports = app;
