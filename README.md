@@ -3,6 +3,10 @@
 ## How to install pacakages
 run yarn install
 
+## How to run the server
+run yarn start
+run yarn dev (nodemon)
+
 ## Tools
 - NodeJs (Javascript and Express)
 - MongoDB
